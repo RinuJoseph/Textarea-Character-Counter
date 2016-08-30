@@ -1,1 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Textarea-Counter</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/textarea-counter.js"></script>
+<script>
+$(document).ready(function(){
+  $('.foo').counter({
+    min:2,
+	max:10,
+	setmaxLimit:false
+   });
+})
+</script>
+</head>
+<body>
+<textarea class="foo"></textarea>
+</body>
+</html>
 
