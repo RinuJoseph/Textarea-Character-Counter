@@ -1,1 +1,14 @@
-
+.errorClass
+{
+	border:2px solid #e1533f
+}
+.error
+{
+	color:#f13015
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
